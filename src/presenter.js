@@ -11,5 +11,5 @@ form.addEventListener("submit", (event) => {
   const tittle = post(titulo.value);
   const content = contenido.value;
 
-  div.innerHTML = "<p>" + tittle +"</br>"+ content + "</p>";
+  div.innerHTML += "<p>" +"titulo:" +tittle +"</br>"+ "detalle:"+content + "</p>";
 });
